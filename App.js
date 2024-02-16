@@ -1,11 +1,11 @@
-
+import Position from './components/Position';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.heading}>Current weather</Text>
-      <Position />
+      <Position></Position>
     </View>
   );
 }

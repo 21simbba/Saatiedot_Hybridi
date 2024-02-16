@@ -1,6 +1,7 @@
 import * as Location from 'expo-location'
 import Weather from './Weather'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, Text, styles,coords } from 'react'
+
 
 export default function Position() {
     const [latitude, setLatitude] = useState(0)
